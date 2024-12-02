@@ -5,7 +5,12 @@
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">Find laptop friendly, quite and aesthetic cafe to work and connect. Discover hidden places near you.</p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">All Cafes</button>
+            <a
+          class="btn btn-primary btn-lg px-4 me-sm-3"
+          href="{{url_for('get_all_cafe')}}"
+          >All Cafes</a
+        >
+
         <button type="button" class="btn btn-outline-secondary btn-lg px-4">Suggest Cafe</button>
       </div>
     </div>
