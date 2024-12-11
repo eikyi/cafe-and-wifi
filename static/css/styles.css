@@ -2,3 +2,33 @@ body{background:#eee}.ratings i{font-size: 16px;color: red}.strike-text{color: r
 a {
 color: #343434;
 }
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #B6A28E;
+    border-color: #B6A28E;
+}
+
+.rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 70px;
+}
+
+.rcorners2_red {
+  border-radius: 25px;
+  border: 2px solid red;
+  padding: 20px;
+  width: 200px;
+  height: 70px;
+}
+
+textarea{
+width: 350px;
+height: 50px;
+}
